@@ -1,4 +1,7 @@
 # wk4-homework - JS Code Quiz
+
+![JavaScript Code Quiz](https://user-images.githubusercontent.com/64692833/87883609-d9eab780-c9c5-11ea-8551-021f52dcc712.png)
+
 Summary
 *   HTML and CSS and Javascript documents create a quiz with multiple choice questions with Javascript trivia
 *   This project emphasizes the use of using Javascript to make dynamic changes to an HMTL document
@@ -20,3 +23,6 @@ A Highscores HTML
 *   Clear button resets the page and local storage
 *   Go back button travels to the start of the quiz
 
+Links:
+* Github Repository:        https://github.com/alsricha/wk4-homework
+* Application:              https://alsricha.github.io/wk4-homework/

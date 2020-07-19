@@ -3,34 +3,46 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- This is the first step in making the document responsive but scaling the items to screen -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Jamie Morris Homework-4 Code Quiz -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- This is the style links -->
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    <!--BootStrap link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- This is the title-->
     <title>JS Code Quiz</title>
 </head>
 
 <body>
-    <!-- Link to highscores -->
-    <a href="HighScores.html">View Highscores</a>
-    <!-- This is a wrapper -->
-    <div id="wrapper">
-        <!-- Div for timer -->
-        <div id="currentTime"></div>
+    <!--Navigation Menu-->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand">JS Quiz</a>
+        <form class="form-inline">
+            <!-- Link to highscores -->
+          <button class="btn btn-outline-success" type="button">
+              <a href="HighScores.html">View Highscores</a>
+          </button>
+        </form>
+      </nav>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Div for timer -->
+            <div id="currentTime"></div>
         <!-- Div for quiz content -->
-        <div id="questionsDiv">
+            <div id="questionsDiv">
             <h1>JavaScript Code Quiz</h1>
-            <p>Try to answer the following code-related questions  within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <p>Try to answer the following code-related questions  within the time limit. Keep in mind that incorrect answers will penalize your score/time by 10 seconds!</p>
             <ul id="choicesUl"></ul>
             <!-- Buttons -->
             <button id="startTime">Start Quiz</button>
+            </div>
+            </div>
         </div>
-
     </div>
+
+
+        
 
 
     <script src="questions.js"></script>
