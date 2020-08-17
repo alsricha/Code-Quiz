@@ -9,7 +9,10 @@ As a user who is learning JavaScript, I want to challenge myself by answering a 
 
 # Project Description
 
-This quiz provides the user a series of random questions about JavaSript and times how long it takes to answer them all. The user is given 
+This quiz provides the user a series of random questions about JavaSript and times how long it takes to answer them all. The user is given 75 seconds to start, but with each incorrect answer, a 15 second penalty is applied. The user's final score is equal to the number of seconds left on the clock after the final question is completed. 
+
+The user is greated by a landing page with a brief description of how to play the game. Once the user selects the "Start Quix" button, the game begins. 
+
 Summary
 *   HTML and CSS and Javascript documents create a quiz with multiple choice questions with Javascript trivia
 *   This project emphasizes the use of using Javascript to make dynamic changes to an HMTL document
