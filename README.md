@@ -1,7 +1,15 @@
-# wk4-homework - JS Code Quiz
+# JavaScript Code Quiz
 
 ![JavaScript Code Quiz](https://user-images.githubusercontent.com/64692833/87883609-d9eab780-c9c5-11ea-8551-021f52dcc712.png)
 
+# User Story
+
+As a user who is learning JavaScript, I want to challenge myself by answering a random number of questions related to Javascript against a timer. In addition to answering questions, I want the application to keep track of my high scores so I may continue to see my knowledge base of JavaScript improve over time or challenge my friends!
+
+
+# Project Description
+
+This quiz provides the user a series of random questions about JavaSript and times how long it takes to answer them all. The user is given 
 Summary
 *   HTML and CSS and Javascript documents create a quiz with multiple choice questions with Javascript trivia
 *   This project emphasizes the use of using Javascript to make dynamic changes to an HMTL document
