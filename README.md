@@ -11,29 +11,15 @@ As a user who is learning JavaScript, I want to challenge myself by answering a 
 
 This quiz provides the user a series of random questions about JavaSript and times how long it takes to answer them all. The user is given 75 seconds to start, but with each incorrect answer, a 15 second penalty is applied. The user's final score is equal to the number of seconds left on the clock after the final question is completed. 
 
-The user is greated by a landing page with a brief description of how to play the game. Once the user selects the "Start Quix" button, the game begins. 
+The user is greated by a landing page with a brief description of how to play the game. Once the user selects the "Start Quiz" button, the game begins. Once the game ends, the ueser is then provided an opportunity to add their name and score to the "View High Scores" page. 
 
-Summary
-*   HTML and CSS and Javascript documents create a quiz with multiple choice questions with Javascript trivia
-*   This project emphasizes the use of using Javascript to make dynamic changes to an HMTL document
-*   This project utilizes the use of appending HTML pages
-*   This project has the following features:
-A Start Quiz button
-*   This starts a timer for the user, each question averages 15 seconds each for a total time of 75 seconds + 1.
-*   An appended HTML page that features questions, and multiple choice answers
-*   If questions are answered incorrectly, 5 seconds are deducted off remaining time
-*   Answers are recording using an event listener, "click" and tracks correct answers
-*   An appended HTML page that features:
-*   Final score which is calculated using time remaining
-*   A Summary of how many questions answered correctly
-*   Input area to record initials
-A Submit button
-*   Submit buttom saves initials and score to local storage
-A Highscores HTML
-*   This a list summary of intials and final scores
-*   Clear button resets the page and local storage
-*   Go back button travels to the start of the quiz
+# Opportunities for Improvement
+
+What was challenging in creating this application was creating the html for the quiz questions dynamically using JavaScript, rather then hardcode them in the html document and modifying them in JavaScript. This was also done for generating the list of high scores. 
+
+Some areas of improvement I would like to do would be to clean-up the overall 
+
 
 Links:
-* Github Repository:        https://github.com/alsricha/wk4-homework
+
 * Application:              https://alsricha.github.io/wk4-homework/
