@@ -17,9 +17,11 @@ The user is greated by a landing page with a brief description of how to play th
 
 What was challenging in creating this application was creating the html for the quiz questions dynamically using JavaScript, rather then hardcode them in the html document and modifying them in JavaScript. This was also done for generating the list of high scores. 
 
-Some areas of improvement I would like to do would be to clean-up the overall 
+Some areas of improvement:
 
+* Make the application responsive
+* Add more categories such as CSS3, jQuery, Node.js, etc.
 
-Links:
+# Links:
 
-* Application:              https://alsricha.github.io/wk4-homework/
+* Application  https://alsricha.github.io/wk4-homework/
