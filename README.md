@@ -24,4 +24,4 @@ Some areas of improvement:
 
 # Links:
 
-* Application  https://alsricha.github.io/wk4-homework/
+Deployable Link - https://alsricha.github.io/Code-Quiz/
